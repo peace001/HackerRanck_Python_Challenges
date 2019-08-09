@@ -1,0 +1,7 @@
+"""author = Rockefeller"""
+
+def plusMinus(arr):
+    SupZ = sum([i>0 for i in arr]) / len(arr)
+    InfZ= sum([i<0 for i in arr]) / len(arr)
+    EqZ = sum([i==0 for i in arr]) / len(arr)
+    return print(f'{SupZ:.4f}') ,  print(f'{InfZ:.4f}') ,  print(f'{EqZ:.4f}')

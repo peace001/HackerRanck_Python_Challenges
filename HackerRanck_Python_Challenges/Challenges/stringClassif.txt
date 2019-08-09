@@ -1,0 +1,17 @@
+"""author = Rockefeller"""
+
+You are given 2 strings as input, write a function that finds a permutation between the characters of the strings 
+and classifies them as being in the same class or not. Output
+
+- returns true or false. For example:
+
+      banana
+      cololo
+and
+        aab
+        ccd 
+can both be classified as being in the same class.
+        aab
+        cde 
+NOT
+
